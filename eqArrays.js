@@ -24,7 +24,7 @@ for(var i = 0; i <= array1.length; i++) {
 }
 return true;
 }
-  
+  //test comment
 
 eqArrays([1, 2, 3], [1, 2, 3]) // => true
 eqArrays([1, 2, 3], [3, 2, 1]) // => false
