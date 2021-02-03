@@ -42,7 +42,7 @@ function assertArraysEqual(arr1, arr2){
     console.log("nope")
   }
 }
-
+assertArraysEqual ([1, 2 ,3],[1, 2 , 3])
 
 //This function should take in a source array and a itemsToRemove array. It should return a new array with only those elements from source that are not present in the itemsToRemove array.
 
