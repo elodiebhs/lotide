@@ -7,5 +7,9 @@ const assertEqual = function(actual, expected) {
 };
 
 // TEST CODE
-assertEqual("salut" , "Bootcamp");
-assertEqual(1, 1);
+//assertEqual("salut" , "Bootcamp"); // dont' need anymore beacause we are testing with chai and mocha
+//assertEqual(1, 1);
+
+
+
+module.exports = assertEqual;
